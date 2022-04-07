@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(57, 169, 219);
+  font-family: Rubik, Arial;
+  background-image: url(https://i.imgur.com/89XiMVh.jpeg);
+  background-size: 120%;
+  background-repeat: no-repeat;
+}
+form {
+  text-align: center;
+  line-height: 30px;
+  height: 80%;
+  overflow: auto;
+}
+
+form hr {
+  width: 15%;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(10, 10, 10);
+}
+
+h4 {
+  text-align: center;
+  color: rgb(10, 10, 10);
+}
+
+#button {
+
+  color: rgb(0, 0, 0);
+  background-color: rgb(57, 169, 219);
+  background-image: url(https://i.pinimg.com/564x/c4/b7/1d/c4b71d8c3f622a80656996ddcef82a32.jpg);
+
+}
+
+#overlay {
+  width: 80%;
+  margin: 3% auto;
+  height: 95vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 40px;
+}
+
+#logo {
+  height: 100px;
+  display: block;
+  margin: auto;
+}
