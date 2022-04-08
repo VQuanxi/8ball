@@ -5,6 +5,11 @@
     <title>8 Ball</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+    <script src="./js/8bal.js">
+
+        document.getElementById('ball').innerHTML='test';
+
+    </script>
   </head>
   <body>
     <br>
@@ -16,14 +21,30 @@
       <br>
       <br>
       <table>
-			<h1><strong id="t8b"><a>8 BALL</a></strong></h1>
+			<h1><span id="ball">8 BALL</span></h1>
     </table>
       <br>
       <h4 id="eyn">Enter your name:</h4>
       <form action=" " method="GET">
 				<input id="nameinput" name="name" type="text" maxlength="15">
         <br>
-        <input type="submit" value="Submit" id="button">
+
+
+
+        <input onclick="changeWeb()" style="visibility: visible;" type="button" value="submit" id="button"> </input>
+        
+        
+        <button onclick="changeWeb2()" type="button" id="continue" style="visibility: hidden;display: none;" >continue</button>
+        
+        
+        
+        
+        
+        <button id="enter"type="button" value="enter" style="display: none;" > enter </button>
+
+
+
+
       </form>
     </section>
   </body>
