@@ -17,20 +17,26 @@
     <br>
     <br>
     <br>
-  	<a href="https://en.wikipedia.org/wiki/Magic_8-ball" target="_blank"><img src="./data/pic/8ball.png" id="logo" alt="8ball" border="0" /></a>
-    <section class="overlay">
+    <div class="container">
+      <div class="avatar">
+  	<a href="https://en.wikipedia.org/wiki/Magic_8-ball" target="_blank"><img src="./data/pic/8ball.png" id="logo" alt="8ball"/></a>
+    </div>
+    </div>
+    <section>
       <br>
       <br>
+      <div id ="div1">
       <table>
 			<h1><span id="ball">Welcome </span></h1>
     </table>
       <br>
+    </div>
       <h4 id="eyn" style="display: none;"> </h4>
 
 
 
       <form onsubmit="return false" id="form">
-				<input id="que" type="text" maxlength="30" style="display: none;">
+				<input id="que" type="text" maxlength="30" value="" style="display: none;">
 
         <input id="enter" type="submit" style="display: none;" onclick="thequestion();changeWeb4()" value="Enter"></input>
       </form>

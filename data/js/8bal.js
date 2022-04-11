@@ -8,6 +8,9 @@ function changeWeb() {
    document.getElementById("button").style.display = "none"
    document.getElementById("ok").style.display = "unset"
    document.getElementById("eyn").style.visibility='hidden'
+   
+
+    
 }
 
 function changeWeb2() {
@@ -30,7 +33,12 @@ function thequestion() {
     document.getElementById("enter").style.display='none'
 
     document.getElementById("alright").style.display='unset'
-    document.getElementById("ball").innerHTML = eightBall ;
+
+    document.getElementById("ball").innerHTML += thenameout;
+
+    if (document.getElementById("que").value === "") {document.getElementById("ball").innerHTML = "Don't be shy and ask something..."}
+
+    else {document.getElementById("ball").innerHTML = eightBall ;}
 
     let rdm = Math.floor(Math.random() * 8);
 //  alert(rdm)
@@ -44,7 +52,12 @@ window.onload = function(){
     if (thename === '') {document.getElementById('ball').innerHTML += "User"} 
 
     else {document.getElementById('ball').innerHTML += thename;}
+
+    thenameout = thename
+
 };
+
+var thenameout = " "
 
 function changeWeb3() {
 
@@ -55,29 +68,16 @@ function changeWeb3() {
     document.getElementById("alright").style.display='none'
 
 
-
+    document.getElementById("que").value=''
 
 
 }
-
-if (typeof userName === "string") {console.log(`Hello, ${userName}`)}
-else {console.log('Hello')};
-
-const userQuestion = 'is the earth flat?'
-
-console.log(`${userName} asked, '${userQuestion}'`)
 
 var randomNumber = Math.floor(Math.random() * 8);
 
 let eightBall = ''
 
 function changeWeb4() {
-
-
-
-
-
-
 
 if (randomNumber === 0) 
 {eightBall = 'It is certain'}
