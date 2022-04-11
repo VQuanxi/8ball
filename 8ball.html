@@ -22,31 +22,48 @@
       <br>
       <br>
       <table>
-			<h1><span id="ball">8 BALL</span></h1>
+			<h1><span id="ball">Welcome </span></h1>
     </table>
       <br>
-      <h4 id="eyn">Enter your name:</h4>
-      <form action=" " method="GET">
-				<input id="nameinput" name="name" type="text" maxlength="15">
+      <h4 id="eyn" style="display: none;"> </h4>
+
+
+
+      <form onsubmit="return false" id="form">
+				<input id="que" type="text" maxlength="30" style="display: none;">
+
+        <input id="enter" type="submit" style="display: none;" onclick="thequestion();changeWeb4()" value="Enter"></input>
+      </form>
+
+
+
+
         <br>
 
+        <form onsubmit="return false">
+        <button onclick="changeWeb();changeWeb4()" style="visibility: visible;" type="submit" id="button">Continue</button>
+        
+        
 
-
-        <input onclick="changeWeb()" style="visibility: visible;" type="button" value="submit" id="button"> </input>
+        <button onclick="changeWeb2()" type="button" id="ok" style="visibility: hidden;display: none;" >Ok</button>
         
-        
-        <button onclick="changeWeb2()" type="button" id="continue" style="visibility: hidden;display: none;" >continue</button>
-        
-        
-        
-        
-        
-        <button id="enter"type="button" value="enter" style="display: none;" > enter </button>
-
-
-
-
       </form>
+
+    </form>
+
+
+
+
+    <br>
+
+    <form onsubmit="return false">
+    <button onclick="changeWeb3()" style="display: none;" type="submit" id="alright">Alright</button>
+    
+    </form>
+        
+        
+        
+  
     </section>
   </body>
 </html>

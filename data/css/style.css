@@ -39,7 +39,7 @@ h4 {
 
 }
 
-#continue {
+#ok {
 
   color: rgb(0, 0, 0);
   background-color: rgb(57, 169, 219);
@@ -48,6 +48,14 @@ h4 {
 }
 
 #enter {
+
+  color: rgb(0, 0, 0);
+  background-color: rgb(57, 169, 219);
+  background-image: url(https://i.pinimg.com/564x/c4/b7/1d/c4b71d8c3f622a80656996ddcef82a32.jpg);
+
+}
+
+#alright {
 
   color: rgb(0, 0, 0);
   background-color: rgb(57, 169, 219);
@@ -78,14 +86,12 @@ h4 {
   color: rgb(82, 95, 93);
   background-image: url(https://www.huber-naturstein.com/wp-content/uploads/2019/05/statuarietto_classic_marmor_2.jpg);
   text-align: center;
-  align-items: center;
-  align-content: center;
-  align-self: center;
 
 }
 
-#eyn {
+
+/*#eyn {
 
   color: rgb(135, 156, 153);
 
-}
+}*/
